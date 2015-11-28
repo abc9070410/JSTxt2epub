@@ -28,7 +28,7 @@ epub.addCoverImage(ImageDataUrl);
 epub.addChapter("Chapter Title", "Chapter Content");
 ```
 
-- generate the Blob of EPUB
+- generate the Blob of epub
 ```javascript
 blob = epub.generateBlobUrl();
 ```
