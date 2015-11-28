@@ -8,7 +8,7 @@
 
 - include the following js file in the header of the html file
 ```html
-<script src="txt2epub.js"></script>
+<script src="txt2epub.js" charset="UTF-8"></script>
 ```
 
 ## Example
