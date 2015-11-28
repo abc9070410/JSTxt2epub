@@ -7,7 +7,7 @@
 ## How to Use
 
 - include the following js file in the header of the html file
-```javascript
+```html
 <script src="txt2epub.js"></script>
 ```
 
@@ -20,7 +20,7 @@ epub = new JSTxt2epub.newEpubFile("Book Title", "Book Author");
 
 - add the cover image
 ```javascript
-Epub.addCoverImage(ImageDataUrl);
+epub.addCoverImage(ImageDataUrl);
 ```
 
 - add the title and content of chapter in order
